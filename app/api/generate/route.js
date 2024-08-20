@@ -1,8 +1,7 @@
 import { NextResponse } from "next/server";
 import Groq from "groq-sdk";
 
-const systemPrompt = `You are a flashcard creator. 
-${process.env.GROQ_API_KEY}. 
+const systemPrompt = `You are a flashcard creator.
 1. Create professional and educational flashcards that are visually appealing, concise, and easy to understand. 
 2. Ensure the content is accurate, up-to-date, and relevant to the topic. 
 3. Use a clear and consistent format throughout the flashcards, including headings, bullet points, and concise descriptions. 
