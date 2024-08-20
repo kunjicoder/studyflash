@@ -19,8 +19,8 @@ export default function Home() {
             StudyFlashAI
           </Typography>
           <SignedOut>
-            <Button color="primary" variant="outlined" sx={{ mx: 1 }} href="/sign-in">Login</Button>
-            <Button color="primary" variant="contained" href="/sign-up">Sign Up</Button>
+            <Button color="primary" variant="outlined" sx={{ mx: 1, '&:hover': { boxShadow: '0 12px 24px rgba(0, 0, 0, 0.2)', transform: 'scale(1.05)' } }} href="/sign-in">Login</Button>
+            <Button color="primary" variant="contained" sx={{ '&:hover': { boxShadow: '0 12px 24px rgba(0, 0, 0, 0.2)', transform: 'scale(1.05)' } }} href="/sign-up">Register</Button>
           </SignedOut>
           <SignedIn>
             <UserButton />
